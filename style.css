@@ -34,9 +34,11 @@ body {
 }
 
 header {
-    background-color: #F9A8D4;
+    background-color: #FFFFFF;
     position: fixed;
     width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 ul {
@@ -115,4 +117,39 @@ h2 {
 
 .information {
     width: 40rem;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #FDEFE7;
+    height: 30vh;
+}
+
+h3 {
+    width: 100%;
+}
+
+form {
+    display: grid;
+    width: 100%;
+    /* grid-template-columns: 20% 20%;
+    grid-template-rows: 20% 20% 40%; */
+}
+/* 
+#fname {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#lname {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#email {
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+#comments {
+    grid-area: 4 / 2 / 5 / 4; */
 }
