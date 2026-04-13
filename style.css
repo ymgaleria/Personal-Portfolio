@@ -108,16 +108,40 @@ span::before, span::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
 }
 
-h2 {
+.header-title {
     margin-top: 10rem;
 }
 
 .information {
     width: 40rem;
 }
+
+#skills {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    align-items: center;
+}
+
 
 #contact {
     display: flex;
@@ -151,5 +175,6 @@ form {
 }
 
 #comments {
-    grid-area: 4 / 2 / 5 / 4; */
-}
+    grid-area: 4 / 2 / 5 / 4; 
+} */
+
