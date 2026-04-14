@@ -124,27 +124,30 @@ span::before, span::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
 }
 
 .skill-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 10rem;
+    gap: 5rem;
+    height: 100vh;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 200px;
-    height: 250px;
+    height: 100px;
     border: 1px solid black;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 
 #contact {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     background-color: #FDEFE7;
@@ -160,8 +163,14 @@ form {
     width: 100%;
     /* grid-template-columns: 20% 20%;
     grid-template-rows: 20% 20% 40%; */
+    gap: 1rem;
 }
-/* 
+
+form > * {
+    height: 3rem;
+    border: 1px solid black;
+}
+
 #fname {
     grid-area: 2 / 2 / 3 / 3;
 }
@@ -176,5 +185,5 @@ form {
 
 #comments {
     grid-area: 4 / 2 / 5 / 4; 
-} */
+}
 
